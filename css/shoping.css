@@ -1,0 +1,170 @@
+/*这个文件为购物车专属CSS，购物车不再引入公共的CSS*/
+
+.margin{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body{
+	background: #F7F7F7;
+}
+.active{
+	background:#fff;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom:0;
+	border-top: 2px solid #B81C22;
+}
+
+/*顶部*/
+#top{
+	height:30px;
+	border-bottom:1px solid #eeeeee;
+}
+
+#top .menu{
+	float: right;
+	font:12px/30px "";
+}
+
+#top .menu a{
+	color: #666666;
+	margin-right: 12px;
+}
+
+#top .menu span{
+	margin: 6px;
+	color: #dddddd;
+}
+
+/* 购物车头部 */
+
+#header{
+	height: 80px;
+	background: #B81C22;
+}
+
+#header .margin{
+	overflow: hidden;
+}
+
+#header .margin .logo{
+	float: left;
+}
+
+#header .margin .car{
+	float: right;
+	margin-top: 14px;
+}
+
+/*顶部提示*/
+
+#care{
+	text-align: center;
+	width: 998px;
+	height: 34px;
+	border:1px solid #f1e2b0;
+	background: #fffbee;
+	margin: 20px auto;
+	font:12px/34px "";
+	color: #666;
+}
+
+#list{
+	width: 1200px;
+	margin: 10px auto;
+	
+}
+
+#list img{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
+#list em{
+	display: block;
+	width: 120px;
+	height: 30px;
+	background: #B81C22;
+	color: #fff;
+	font: 16px/30px "";
+	text-align: center;
+	margin:0 auto;
+	border-radius: 5px;
+	cursor: pointer;	/*鼠标变形*/
+}
+
+
+
+
+
+
+/*底部*/
+
+#bottom{
+	overflow: hidden;
+	margin-bottom: 25px;
+	margin-top: 100px;
+}
+
+#bottom .bottom1{
+	width: 146px;
+	/* height: 153px; */	/*test*/
+	margin-right: 35px;
+	/* border: 1px solid #000; */			/*test*/
+	background-position: 25px 32px;
+	float:left;
+}
+
+#bottom .bottom1 h3{
+	font:700 14px/32px "";
+	margin-left:25px;
+	color: #333;
+}
+
+#bottom .bottom1>img{
+	margin: 2px auto auto 12px;
+}
+
+#bottom .bottom1>ul{
+	float: right;
+	margin: 4px 0 0 18px;
+	font: 12px/24px "";
+}
+
+#bottom .bottom2{
+	width: 76px;
+	text-align: center;
+	float: left;
+	margin: 0 24px 0 20px;
+}
+
+#bottom .bottom2>img{
+	width: 76px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#bottom .tel{
+	float: right;
+}
+
+/*footer*/
+#footer{}
+
+#footer .content{
+	text-align: center;
+	color: #999;
+	font:12px/24px "";
+}
+
+#footer .info{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#footer .di>img{
+	display: block;
+	margin:0 auto;
+}

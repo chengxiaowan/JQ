@@ -1,0 +1,74 @@
+#log{
+	height: 450px;
+/* 	background: #07cbc9; */		/*test*/
+	position: relative;
+}
+
+#log img{
+	float: left;
+	width:660px;
+	height: 370px;
+	position: absolute;
+	top:48px; 
+}
+
+#log form{
+	width: 480px;
+	height: 310px;
+	float: right;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#log form h3{
+	margin-bottom: 60px;
+	font: 16px/32px "华文行楷";
+	color: #B81C22;
+}
+
+#log form span{
+	font: 16px/32px "";
+	color: #333;
+}
+
+#log form span.xieyi{
+	color: #333;
+	font:12px/32px "";
+	
+}
+
+#user{
+	width: 180px;
+	height: 32px;
+	padding: 0 12px;
+	margin-bottom: 20px;
+}
+
+#psw{
+	width: 180px;
+	height: 32px;
+	padding: 0 12px;
+	margin-bottom: 20px;
+}
+
+#btn{
+	width: 90px;
+	height: 40px;
+	border: 0;
+	background: #B81C22;
+	color: #fff;
+	font: 700 16px/40px "";
+	margin-bottom: 20px;
+}
+
+#log form p{
+	font:700 12px/24px "";
+}
+
+#log form p a{
+	margin: 0 12px;
+}
+
+#log form p a:hover{
+	color: #ff0000;
+}
